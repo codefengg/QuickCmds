@@ -9,4 +9,28 @@
       margin-bottom: 20px;
     }
   }
+}
+
+.ant-layout {
+  background: #f0f2f5;
+}
+
+.ant-card {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+}
+
+.ant-input-search {
+  .ant-input {
+    border-radius: 4px;
+  }
+}
+
+code {
+  word-break: break-all;
+  white-space: pre-wrap;
 } 
